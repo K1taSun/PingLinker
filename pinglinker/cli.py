@@ -1,5 +1,5 @@
 """Interfejs wiersza poleceń."""
-dimport click
+import click
 from . import display
 from .speed_test import SpeedTester, SpeedTestResult
 

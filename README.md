@@ -24,14 +24,20 @@ PingLinker offers a modern terminal experience for network diagnostics. Whether 
     cd PingLinker
     ```
 
-2.  **Install dependencies**
+2.  **Install** (Cross-platform)
     ```bash
-    pip install -r requirements.txt
+    pip install .
     ```
 
 ## 🚀 Usage
 
-Run the tool directly from the command line:
+Once installed, you can run the tool from anywhere:
+
+```bash
+pinglinker
+```
+
+Alternatively, run the script directly:
 
 ```bash
 python main.py
